@@ -249,7 +249,7 @@
 			<div class="content">
 				<p><strong>Fancy a chat</strong> then drop me a message. I could (try) and build you a website, or take
 					your picture. Failing that we could just get drunk. </br> Hit me up. </p>
-				<form>
+				<!-- <form>
 					<div class="fields">
 						<div class="field half">
 							<input type="text" name="name" id="name" placeholder="Name" />
@@ -264,7 +264,21 @@
 					<ul class="actions">
 						<li><input type="submit" value="Send Message" class="button primary" /></li>
 					</ul>
-				</form>
+				</form> -->
+
+				<div id="contact">
+					<h2>Get in Touch</h2>
+					<div id="contact-form">
+							<form action="https://formspree.io/f/xjvpzzyl" method="POST">
+							<input type="hidden" name="_subject" value="Contact request from personal website" />
+							<input type="email" name="_replyto" placeholder="Your email" required>
+							<textarea name="message" placeholder="Type your message" required></textarea>
+							<button type="submit">Send</button>
+						</form>
+					</div>
+				</div>
+
+
 			</div>
 			<footer>
 				<ul class="items">
